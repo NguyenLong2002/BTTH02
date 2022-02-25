@@ -160,3 +160,85 @@ body{
     text-align: justify;
     margin-top: 15px;
 }
+/* css for intro2 */
+#intro2{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0 48px 0;
+}
+#intro2-inner{
+     width: 1250px; 
+     height: 363.8px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: relative;
+}
+#intro2-inner h2{
+    height: 35px;
+    width: 1230px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.intro2-content{
+    display: flex;
+    padding-top: 50px;
+}
+.intro2-content .item{
+    height: 243.8px;
+    width: 320px;
+    border: 2px solid #0b249e;
+    margin: 0 50px 0 50px;
+    display: block;
+    border-radius: 10px;
+}
+.intro2-content .item .item-icon{
+    height: 58.6px;
+    width: 100%;
+    margin: 20px 20px 20px 0;
+    text-align: center; 
+}
+.item-icon .fa-id-card{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    font-size: 50px;
+    color: #0b249e;
+}
+.item-icon .fa-gem{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    font-size: 50px;
+    color: #0b249e;
+}
+.item-icon .fa-trophy{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    font-size: 50px;
+    color: #0b249e;
+}
+.intro2-content .item h3{
+    height: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0b249e;
+}
+.intro2-content .item p{
+    text-align: center;
+    height: 54px;
+    width: 266px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
