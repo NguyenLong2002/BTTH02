@@ -85,13 +85,49 @@ body{
     font-family: 'Archivo', sans-serif;
 }
 
-#wrapper{
-    background-color: #0b249e;
+.main-menu .sub-menu>li:hover .sub-menu-1{
+    display: block;
+}
+.sub-menu-1{
+    position: absolute;
+	min-width: 220px;
+	background-color: #F4F4F4;
+	display: none;
+	border: 1px solid #ccc;
+    top :80px;
+    left: 225px;
 }
 
-#all .datdai{
-    width: 62%;
-    height: 20px;
-    padding-left: 20px;
-    background-color: rgb(0, 0, 0);
+#box{
+    padding: 0px 50px 0px 50px;
+    display: flex;
+}
+
+#box .frames .datdai{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.datdai a{
+    text-decoration: none;
+}
+
+.share{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.content{
+    width: 90%;
+    background-color: aquamarine;
+}
+
+#box .boxinfo{
+    width: 30%;
+    margin-left: 20pxpx;
+}
+
+.boxinfo img{
+    max-width: 100%;
+    max-height: 100%;
 }
