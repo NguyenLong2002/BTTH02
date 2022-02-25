@@ -103,6 +103,10 @@ body{
     display: flex;
 }
 
+.frames{
+    width: 70%;
+}
+
 #box .frames .datdai{
     margin-top: 5px;
     margin-bottom: 15px;
@@ -118,16 +122,51 @@ body{
 }
 
 .content{
-    width: 90%;
-    background-color: aquamarine;
+    width: 93%;
+}
+
+.content .tit{
+    font-size: 20px;
+    color: #020516;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+.content .tit1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1a38e0;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    text-align: left;
 }
 
 #box .boxinfo{
+    margin-top: 20px;
     width: 30%;
-    margin-left: 20pxpx;
+    margin-left: 20px;
+}
+
+.boxinfo .thongtin{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .boxinfo img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxinfo .registration .thongtin1{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.dk{
+    background-color: #e2c20b;
 }
