@@ -1,0 +1,172 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#header .header-inner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+#header .header-inner .logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#header .header-inner .nav{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-menu>li{
+    width: fit-content;
+    margin-right: 15px;
+    padding: 5px;
+    position: relative;
+}
+
+.main-menu>li>a{
+    text-decoration: none;
+    color: #020516;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+}
+
+.main-menu>li>a .active{
+    color: #0b249e;
+    text-shadow: 1px 1px #f1ebeb;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.main-menu>li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #F4F4F4;
+    padding: 10px;
+    width: max-content;
+}
+
+.main-menu>li:hover .sub-menu li{
+    padding: 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.main-menu>li:hover .sub-menu li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Archivo', sans-serif;
+}
+
+.main-menu .sub-menu>li:hover .sub-menu-1{
+    display: block;
+}
+.sub-menu-1{
+    position: absolute;
+	min-width: 220px;
+	background-color: #F4F4F4;
+	display: none;
+	border: 1px solid #ccc;
+    top :80px;
+    left: 225px;
+}
+
+#box{
+    padding: 0px 50px 0px 50px;
+    display: flex;
+}
+
+.frames{
+    width: 70%;
+}
+
+#box .frames .datdai{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.datdai a{
+    text-decoration: none;
+}
+
+.share{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.content{
+    width: 93%;
+}
+
+.content .tit{
+    font-size: 20px;
+    color: #020516;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+.content .tit1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1a38e0;
+    text-transform: uppercase;
+    font-family: 'Archivo', sans-serif;
+    text-align: left;
+}
+
+#box .boxinfo{
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.boxinfo .thongtin{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.boxinfo img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxinfo .registration .thongtin1{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.dk{
+    background-color: #e2c20b;
+}
