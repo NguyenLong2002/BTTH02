@@ -1,0 +1,199 @@
+img{
+    height: 70px;
+    width: 244px;
+}
+.nav-link{
+    color: black !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 15px 0 15px !important;
+    font-family: 'Archivo', sans-serif;
+}
+.dropdown-menu{
+    background-color: rgb(241, 241, 241);
+    border: 1px solid #dadada;
+    padding: 10px 0 10px 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Archivo', sans-serif;
+}
+.dropdown-item{
+    border-bottom: 1px solid ;
+}
+.navbar{
+    padding: 0;
+}
+.container-fluid{
+    padding: 5px;
+}
+.slider img{
+    height: 600px;
+    width: 100%;
+    display: inline;
+}
+
+
+/*  */
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+
+
+/* */
+/* css for intro */
+#intro .col-md-5 img{
+    height: 382px;
+    width: 90%;
+    display: inline-block;
+}
+#intro .row{
+    padding-top: 85px !important;
+}
+#intro .col-md-7{
+    font-size: 15px;
+    font-style: 500;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+/* css for intro2 */
+#intro2{
+    padding-bottom: 80px;
+}
+#intro2 .row .col-md-12{
+    padding: 80px 60px 60px 60px;
+}
+#intro2 .row .col-md-12 h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+#intro2 .row .col-md-4 .card{
+    border: 2px solid #0b249e;
+    border-radius: 10px;
+    width: 306px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+#intro2 .row .col-md-4 .card .card-header{
+    border-bottom: 0;
+}
+#intro2 .row .col-md-4 .card .card-footer{
+    border-top: 0;
+}
+#intro2 .row .col-md-4{
+    padding: 0px;
+    align-content: center;
+  
+}
+#intro2 h3{ 
+    color: #0b249e;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.fa-id-card{
+    font-size: 50px;
+    color: #0b249e;
+}
+.fa-gem{
+    font-size: 50px;
+    color: #0b249e;
+}
+.fa-trophy{
+    font-size: 50px;
+    color: #0b249e;
+}
+#intro2 .col-md-4 .card .card-header{
+    background-color: white;
+    border-radius: 10px;
+}
+#intro2 .col-md-4 .card .card-footer{
+    background-color: white;
+}
+#intro2 .card-footer{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 10px;
+}
+
+/* css for intro3 */
+#intro3{
+    padding: 80px 0 80px 0;
+    background-image: linear-gradient(rgb(7, 10, 163), rgb(131, 4, 114));
+    overflow: hidden;
+
+}
+#intro3 h2{
+    height: 35px;
+    font-size: 25px;
+    font-size: 700;
+    text-align: center;
+
+    padding-bottom: 60px;
+    color: white;
+}
+#intro3 .row .col-md-12 .card{
+    margin: 10px;
+    width: 287.5px;
+    height: 280px;
+    border: 2px solid #ffffff;
+    align-items: center;
+}
+#intro3 .row .col-md-12 .card img {
+    width: 260px;
+    height: 189px;
+    text-align: center;
+}
+#intro3 .row .col-md-12 .card p{
+    height: 42px;
+    width: 240px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+    position: relative;
+}
+#intro3 .row .col-md-12 .card p:hover{
+    color: #0b249e;
+    transition: 0.5s;
+}
+#intro3 .row .col-md-12 .card-body{
+    padding: 0;
+}
+#intro3 .row .col-md-12 .footer{
+    min-height: 61px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+#intro3 .row .col-md-12 .footer p{
+    width: 80%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    color: white;
+    line-height: 30.6px;
+    padding: 30px 20px 30px 20px;
+}
+#intro3 .row.col-md-12 {
+    display: flex;
+    justify-content: center;
+}
+button.btn-success{
+    display: flex;
+    justify-content: center;
+}
